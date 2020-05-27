@@ -1,0 +1,450 @@
+body {
+    margin: 0 auto;
+    font-family: "Gilroy" , sans-serif;  /*Или все таки Serif? никак не могу понять какой шрифт из базовых какой*/
+    background-color: #E5E5E5;
+}
+
+p , h1, h2, h3 , ul , li , img {
+    margin: 0;
+    padding: 0;
+}
+
+                                    /* Header */
+.page-header {
+    width: 1440px;
+    height: 116px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.page-header .logo {
+    width: 41px;
+    height: 39px;
+    margin-left: 80px;
+}
+
+.page-header__main-menu {  
+    width: 331px;            
+    display:flex;
+    list-style: none;
+    margin-left: 60px; /* Кажется это костыль, но без него меню сильно уходит влево, не пойму почему так*/
+}
+
+.page-header__main-menu li {
+    margin-right: 31px;
+}
+
+.page-header__main-menu li:last-of-type {
+    margin-right: 0;
+}
+
+.page-header__main-menu a {
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.page-header__button {
+    width: 150px;
+    height:45px;
+    margin-right: 34px;
+    background-color: #FAFAFA;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    color: #F7941E;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+                        /*Slogan and "How we work" sections */
+.slogan {
+    width: 1440px;
+    height: 700px;
+    background-color: #F1F1F2;
+    display: flex;
+    margin: 0 auto;
+}
+
+.slogan__wrapper {
+    width: 721px;
+}
+
+.slogan__content {
+    margin:144px 126px 135px 162px;
+    width: 433px;
+    height: 421px;
+}
+
+.slogan__title {
+    font-size:56px;
+    line-height: 69px;
+}
+
+.slogan__title span {
+    letter-spacing: 1px;
+}
+
+.slogan__subtitle {
+    font-size:20px;
+    line-height: 30px;
+    margin-top: 39px;
+}
+
+.slogan__button {
+    width: 200px;
+    height: 60px;
+    background-color: #F7941E;
+    border:5px solid #F7941E;
+    border-radius: 5px;
+    color:#FFFFFF;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-top: 57px;
+}
+
+.how-we-work {
+    width: 1440px;
+    height: 600px;
+    background-color: #F1F1F2;
+    display: flex;
+    margin: 0 auto;
+}
+
+.how-we-work__content {
+    width: 441px;
+    height: 342px;
+    margin:154px 166px 104px 102px;
+    padding-left: 10px;
+}
+
+.how-we-work__title {
+    font-size:32px;
+    font-weight: normal;
+    line-height: 45px;
+    padding-top: 2px;
+}
+
+.how-we-work__subtitle {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: justify;
+    padding-top: 26px;
+}
+
+.how-we-work__button {
+    width:200px;
+    height: 60px;
+    margin-top: 41px;
+    border: 1px solid #F7941E;
+    border-radius: 5px;
+    color:#F7941E;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+                                /*Posts tall section*/
+.posts-tall {
+    width: 1440px;
+    height: 820px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+.posts-tall__title-wrapper {
+    text-align: center;
+    padding: 91px 0 69px 0;
+}
+
+.posts-tall__title {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: normal;
+}
+
+.posts-tall__subtitle {
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 25px;
+}
+
+.posts-tall__cards-wrapper {
+    display: flex;
+}
+
+.posts-tall__cards {
+    width: 270px;
+    height: 436px;
+    padding-right: 30px;
+}
+
+.posts-tall__cards:last-of-type {
+    padding-right:0;
+}
+
+.posts-tall__cards:first-of-type {
+    padding-left: 135px;
+}
+
+.posts-tall__cards img {
+    width: 270px;
+    height: 270px;
+}
+
+.posts-tall__card-label {
+    background-color: #FAFAFA;
+    margin-top: -5px; /* Снова костыль, между картинкой и блоком расстояние в 5px, 
+    не знаю как от него избавиться по другому*/
+}
+
+.posts-tall__cards:first-of-type .posts-tall__card-label , 
+.posts-tall__cards:first-of-type img {
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 15px 0 rgb(233, 232, 232);
+}
+
+.posts-tall__card-title {
+    display: block;
+    padding: 22px 24px 74px 24px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.posts-tall__card-label a {
+    display: inline-block;
+    font-family: "Roboto" , sans-serif;
+    padding-bottom: 25px;
+    font-size: 14px;
+    line-height: 19px;
+    padding-left:24px;
+    padding-top: 3px;
+    text-decoration: none;
+    color: #000000;
+}
+
+                                    /*STA section*/
+.CTA-section {
+    width: 1440px;
+    height: 240px;
+    box-sizing: border-box;
+    background-color: #F7941E;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding:0 235px;
+    
+}
+
+.CTA-section__title {
+    font-size: 32px;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+.CTA-section__subtitle {
+    font-size: 32px;
+    line-height: 45px;   
+}
+
+.CTA-section__button {
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 22px;
+    border-radius: 5px;
+    margin-top: 1px;
+    text-align: center;
+}
+
+.CTA-section__button:first-of-type {
+    margin-left: 231px;
+    margin-right: 16px;
+    background-color: #231F20;
+    border: 1px solid #231F20;
+    color: #FFFFFF;
+}
+
+.CTA-section__button:last-of-type {
+    border: 1px solid #231F20;
+    background-color: #F7941E;
+}
+                             /*Blog section*/
+.blog-section {
+    width: 1440px;
+    height: 1026px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+}
+
+.blog-section h2 {
+    font-size:32px;
+    line-height: 38px;
+    text-align: center;
+    padding-top: 83px;
+}
+
+.blog-section p {
+    font-size:18px;
+    line-height: 24px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.blog-section__main-article {
+    width: 1170px;
+    height: 370px;
+    margin: 76px auto 40px auto;
+    display: flex;
+}
+
+.blog-section__main-article>img {
+    width: 400px;
+    height: 370px;
+}
+
+.blog-section__article-content {
+    background-color: #231F20;
+    flex-grow: 1;
+    padding: 60px 200px 0 78px;
+    color: #FFFFFF;
+}
+
+.blog-section__article-content cite {
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+}
+
+.blog-section__article-content h3 {
+    font-size: 48px;
+    line-height: 58px;
+    margin-top: 22px;
+    margin-bottom: 72px;
+}
+
+.blog-section__article-content a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.blog-section__article-wrapper {
+    width:1170px;
+    height: 290px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.blog-section__article {
+    width: 570px;
+    padding: 42px 50px 0 48px;
+}
+
+.blog-section__article-wrapper .blog-section__article:first-of-type {
+    margin-right:30px;
+    box-shadow: 4px 4px 15px 0 rgb(233, 232, 232);
+}
+
+.blog-section__article h3 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: bold;
+}
+
+.blog-section__article p {
+    font-size: 18px;
+    line-height: 25px;
+    text-align:left;
+}
+
+.blog-section__article p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-top: -8px; /*Снова костыль, из-за межстрочного интервала заголовка выше, 
+    у меня не получается попасть по высоте этого параграфа*/
+    margin-bottom:39px;
+}
+
+.blog-section__article a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 20px;
+}
+                                /*Footer*/
+.page-footer {
+    width: 1440px;
+    height: 410px;
+    background-color: #FAFAFA;
+    margin: 0 auto;
+    padding-top: 111px;
+}
+
+.page-footer__menu {
+    display: flex;
+    width: 600px;
+    margin: 0 auto 38px 406px;
+}
+
+.page-footer__menu li {
+    list-style: none;
+}
+
+.page-footer__menu li:first-of-type {
+    margin-right: 81px;
+}
+
+.page-footer__menu li:nth-of-type(3) {
+    margin: 2px 141px 0 142px;
+}
+
+.page-footer__menu li:nth-of-type(4) {
+    margin-right:54px;
+}
+
+.page-footer__menu li a {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000;
+}
+
+.page-footer hr {
+    width:1000px;
+    border: 1px solid #000000;
+    margin-bottom: 54px;
+}
+
+.page-footer__icons-list {
+    width: 296px;
+    margin: 0 auto 64px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.page-footer__icons-list li {
+    list-style: none;
+}
+
+.page-footer__copyrights {
+    width: 210px;
+    margin: 0 auto;
+}
+
+.page-footer__copyrights span {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.page-footer__copyrights span:first-of-type {
+    margin-right: 10px;
+}

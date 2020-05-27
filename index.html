@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Gift Store Website</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="page-header" id="home-id">
+        <img src="images/icons/logo.svg" alt="Логотип" class="logo">
+        <ul class="page-header__main-menu">
+                <li><a href="#home-id">Home</a></li>
+                <li><a href="#about-us-id">About Us</a></li>
+                <li><a href="#service-id">Services</a></li>
+                <li><a href="#blog-id">Blogs</a></li>
+        </ul>
+        <button class="page-header__button">Gift finder</button>
+    </header>
+    <main>
+    <!--2 section about slogan and "How we work"-->
+        <section class="slogan">
+            <div class="slogan__wrapper">
+                <div class="slogan__content">
+                    <h2 class="slogan__title">Find a gift for your wife or <span>girlfriend</span></h2>
+                    <p class="slogan__subtitle">Struggling to find a gift for your wife or girlfriend? No problem!</p>
+                    <button class="slogan__button">Find gift now</button>
+                </div>
+            </div>
+            <img src="images/Slogan-photo.jpg" alt="Фото улыбчивой девушки и парня">
+        </section>
+        <section class="how-we-work" id="about-us-id">
+            <img src="images/envelope.png" alt="Черный конверт, на котором написано спасибо тебе">
+            <div class="how-we-work__wrapper">
+                <div class="how-we-work__content">
+                    <h2 class="how-we-work__title">How we work</h2>
+                    <p class="how-we-work__subtitle">We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</p>
+                    <button class="how-we-work__button">Learn More</button>
+                </div>
+            </div>
+        </section> 
+    <!--Posts tall Section--> 
+        <section class="posts-tall" id="service-id">
+            <div class="posts-tall__title-wrapper">
+                <h2 class="posts-tall__title">Gifts for all Occasions</h2>
+                <p class="posts-tall__subtitle">“Try our web app to find the best gifts for all occasions”</p>
+            </div>
+            <div class="posts-tall__cards-wrapper">
+                <div class="posts-tall__cards">
+                    <img src="images/birthday.png" alt="С днем рождения!">
+                    <div class="posts-tall__card-label">
+                        <h3 class="posts-tall__card-title">Birthday</h3>
+                        <a href="https://ru.wikipedia.org/wiki/День_рождения">See More ›</a>
+                    </div>
+                </div>
+                <div class="posts-tall__cards">
+                    <img src="images/anniversary.png" alt="С днем рождения!">
+                    <div class="posts-tall__card-label">
+                        <h3 class="posts-tall__card-title">Anniversary</h3>
+                        <a href="https://ru.wikipedia.org/wiki/Годовщины_свадьбы">See More ›</a>
+                    </div>
+                </div>
+                <div class="posts-tall__cards">
+                    <img src="images/valentines-day.png" alt="С днем рождения!">
+                    <div class="posts-tall__card-label">
+                        <h3 class="posts-tall__card-title">Valentine's Day</h3>
+                        <a href="https://ru.wikipedia.org/wiki/День_святого_Валентина">See More ›</a>
+                    </div>
+                </div>
+                <div class="posts-tall__cards">
+                    <img src="images/christmas.png" alt="С днем рождения!">
+                    <div class="posts-tall__card-label">
+                        <h3 class="posts-tall__card-title">Christmas</h3>
+                        <a href="https://ru.wikipedia.org/wiki/Рождество_Христово">See More ›</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--STA Section-->
+        <section class="CTA-section">
+            <div class="CTA-section__content-wrapper">
+                <h2 class="CTA-section__title">Ready to get started?</h2>
+                <p class="CTA-section__subtitle">Sign up or contact us</p>
+            </div>
+            <button class="CTA-section__button ">Find gift now</button>
+            <button class="CTA-section__button ">how it works</button>
+        </section>
+        <!--Blog Section-->
+        <section class="blog-section" id="blog-id">
+            <h2>Our Best Blogs Ever</h2>
+            <p>“Try our blog to find the best tips and tricks to select your gift”</p>
+            <article class="blog-section__main-article">
+                <img src="images/wedding.jpg" alt="Улыбающиеся невеста с женихом">
+                <div class="blog-section__article-content">
+                    <cite>Mr. John Doe</cite>
+                    <h3>The best way to wish your wife</h3>
+                    <a href="#">Read More</a>
+                </div>
+            </article>
+            <div class="blog-section__article-wrapper">
+            <article class="blog-section__article">
+                <h3>Database to find the gifts for your girlfriend</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+                <a href="#">Read More</a>
+            </article>
+            <article class="blog-section__article">
+                <h3>How Artificial Intelligence read your mind to find the best gift</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+                <a href="#">Read More</a>
+            </article>
+            </div>
+        </section>
+    </main>
+    <!--Footer-->
+    <footer class="page-footer">
+        <ul class="page-footer__menu">
+            <li><a href="#home-id">Home</a></li>
+            <li><a href="#about-us-id">About</a></li>
+            <li><img src="images/icons/footer-logo.svg" alt="Логотип оранжевого цвета"></li>
+            <li><a href="#service-id">Service</a></li>
+            <li><a href="#blog-id">Blog</a></li>
+        </ul>
+        <hr>
+        <ul class="page-footer__icons-list">
+            <li><a href="https://www.facebook.com/"><img src="images/icons/fb.svg" alt="Facebook"></a></li>
+            <li><a href="https://twitter.com/"><img src="images/icons/tw.svg" alt="Twitter"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="images/icons/instagramm.svg" alt="Instagramm"></a></li>
+            <li><a href="https://www.youtube.com/"><img src="images/icons/youtube.svg" alt="Youtube"></a></li>
+            <li><a href="https://www.pinterest.ru/"><img src="images/icons/p.svg" alt="Pinterest"></a></li>
+        </ul>
+        <div class="page-footer__copyrights">
+            <span>© 2010 — 2020</span>
+            <span>Privacy — Terms</span>
+        </div>
+    </footer>
+</body>
+</html>

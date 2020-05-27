@@ -1,0 +1,26 @@
+@font-face { 
+    font-family: "Gilroy";
+    src: url(fonts/Gilroy-Regular.woff2) format("woff2"), 
+         url(fonts\Gilroy-Regular.woff) format("woff"), 
+         url(fonts\Gilroy-Regular.ttf) format("ttf"); 
+    font-weight: 400px;
+    font-style: normal;
+}
+
+@font-face { 
+    font-family: "Gilroy";
+    src: url(fonts\Gilroy-RegularItalic.woff2) format("woff2"), 
+         url(fonts\Gilroy-RegularItalic.woff) format("woff"), 
+         url(fonts\Gilroy-RegularItalic.ttf) format("ttf"); 
+    font-weight: 400px;
+    font-style: italic;
+}
+
+@font-face { 
+    font-family: "Gilroy";
+    src: url(fonts\Gilroy-Bold.woff2) format("woff2"), 
+         url(fonts\Gilroy-Bold.woff) format("woff"), 
+         url(fonts\Gilroy-Bold.ttf) format("ttf"); 
+    font-weight: 700px;
+    font-style: normal;
+}
